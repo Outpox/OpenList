@@ -1,4 +1,4 @@
-# OpenList Chrome Extension
+# OpenList WebExtension
 
 OpenList helps you manage lists of URLs. It's useful if you have a habit of emailing yourself lists of articles or pages to check out later.
 
@@ -12,14 +12,15 @@ The name should probably be changed to something like TabsList, but that's a lot
 
 ## Installation
 
-[Download the extension from the Chrome store](https://chrome.google.com/webstore/detail/nkpjembldfckmdchbdiclhfedcngbgnl). It's free!
+[Download the extension from Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/openlist/). It's free!
 
 ## Issues
 
-Please open an issue on [the GitHub issue tracker for this project](https://github.com/cdzombak/OpenList/issues).
+Please open an issue on [the GitHub issue tracker for this project](https://github.com/Outpox/OpenList/issues).
 
 ## History
 
+* v0.4.0: firefox version
 * v0.3.3: remove redundant addition of context menu item
 * v0.3.2: use Chrome event page instead of persistent background page, for reduced resource usage
 * v0.3.1: fix a bug where Open button sometimes didn't work; appearance updates.
@@ -32,9 +33,11 @@ Please open an issue on [the GitHub issue tracker for this project](https://gith
 
 MIT. See `LICENSE` included in this repo.
 
-## Developer
+## Original Developer
 
 * [chris.dzombak.name](http://chris.dzombak.name/)
 * chris@chrisdzombak.net
 * [t@cdzombak](https://twitter.com/cdzombak)
 * [a@dzombak](https://alpha.app.net/dzombak)
+
+Forked and ported to WebExtension by Outpox.
