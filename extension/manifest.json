@@ -1,14 +1,13 @@
 {
   "name": "OpenList",
-  "author": "Chris Dzombak <http://chris.dzombak.name>",
+  "author": "Guillaume 'Outpox' Migeon <contact@guillaumemigeon.fr> ",
   "manifest_version": 2,
-  "version": "0.3.4",
-  "description": "Utilities to create and open lists of tabs.",
+  "version": "0.4.0",
+  "description": "Utilities to create and open lists of tabs. Forked from the Chrome version and ported to Webextension.",
   "background": {
-    "page": "background.html",
-    "persistent": false
+    "page": "background.html"
   },
-  "homepage_url": "https://github.com/cdzombak/OpenList",
+  "homepage_url": "https://github.com/Outpox/OpenList",
   "permissions": [
     "contextMenus",
     "tabs"
